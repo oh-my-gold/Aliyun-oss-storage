@@ -1,0 +1,30 @@
+{
+    "name": "oh-my-good/aliyun-oss-storage",
+    "description": "aliyun oss filesystem storage for laravel 5+",
+    "keywords": ["aliyun", "oss", "laravel", "filesystems", "storage"],
+    "type": "laravel-package",
+    "license": "MIT",
+	"homepage":"https://github.com/oh-my-gold/Aliyun-oss-storage",
+    "autoload": {
+        "psr-4": {
+            "OhMyGood\\AliyunOssStorage\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mr.zhang",
+            "email": "zhang@uukule.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "aliyuncs/oss-sdk-php": "~2.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "OhMyGood\\AliyunOssStorage\\AliOssServiceProvider"
+            ]
+        }
+    }
+}
