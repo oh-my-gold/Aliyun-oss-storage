@@ -1,9 +1,9 @@
 <?php
 
-namespace OhMyGood\AliyunOssStorage;
+namespace OhMyGold\AliyunOssStorage;
 
-use OhMyGood\AliyunOssStorage\Plugins\PutFile;
-use OhMyGood\AliyunOssStorage\Plugins\PutRemoteFile;
+use OhMyGold\AliyunOssStorage\Plugins\PutFile;
+use OhMyGold\AliyunOssStorage\Plugins\PutRemoteFile;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\ServiceProvider;
