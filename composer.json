@@ -1,5 +1,5 @@
 {
-    "name": "oh-my-good/aliyun-oss-storage",
+    "name": "oh-my-gold/aliyun-oss-storage",
     "description": "aliyun oss filesystem storage for laravel 5+",
     "keywords": ["aliyun", "oss", "laravel", "filesystems", "storage"],
     "type": "laravel-package",
@@ -7,7 +7,7 @@
 	"homepage":"https://github.com/oh-my-gold/Aliyun-oss-storage",
     "autoload": {
         "psr-4": {
-            "OhMyGood\\AliyunOssStorage\\": "src/"
+            "OhMyGold\\AliyunOssStorage\\": "src/"
         }
     },
     "authors": [
@@ -23,7 +23,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "OhMyGood\\AliyunOssStorage\\AliOssServiceProvider"
+                "OhMyGold\\AliyunOssStorage\\AliOssServiceProvider"
             ]
         }
     }

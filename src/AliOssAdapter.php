@@ -5,7 +5,7 @@
  * Time: 下午 17:07
  */
 
-namespace OhMyGood\AliyunOssStorage;
+namespace OhMyGold\AliyunOssStorage;
 
 use Dingo\Api\Contract\Transformer\Adapter;
 use League\Flysystem\Adapter\AbstractAdapter;

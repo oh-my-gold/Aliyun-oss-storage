@@ -6,7 +6,7 @@
  * Time: 下午8:31
  */
 
-namespace OhMyGood\AliyunOssStorage\Plugins;
+namespace OhMyGold\AliyunOssStorage\Plugins;
 
 use Illuminate\Support\Facades\Log;
 use League\Flysystem\Config;
